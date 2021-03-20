@@ -1,4 +1,4 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.19;
 
 contract Charity {
 
@@ -6,7 +6,7 @@ contract Charity {
     mapping (address => uint) public donations;
     bytes32[] public votingOptions;
     address[] public votingOptionAddresses;
-    uint[] public votingOptionVotes;
+    uint[] public votingOptioccnVotes;
     uint public votingOptionsCount;
     uint public startTime;
     uint public endTime;
